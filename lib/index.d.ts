@@ -1,4 +1,4 @@
-import 'babel-polyfill';
+import '@babel/polyfill';
 import { IConfig } from './global';
 import { genPersonalSign, genSignRawTransaction } from './utils/sign/gen';
 declare const JssdkClient: {

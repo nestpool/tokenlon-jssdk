@@ -1,4 +1,4 @@
-import 'babel-polyfill'
+import '@babel/polyfill'
 import { IConfig } from './global'
 import { setConfig } from './config'
 import { getPairs, getTicker, getTickerHistory, getTradeCap, getTradeCapHistory } from './request/market'
